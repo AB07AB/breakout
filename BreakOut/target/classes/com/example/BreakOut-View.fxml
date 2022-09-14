@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<?import javafx.scene.shape.Rectangle?>
+<AnchorPane fx:id="scene" prefHeight="400.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.BreakOutController">
+    <children>
+        <Circle fx:id="circle" fill="PINK" layoutX="300.0" layoutY="300.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+        <Rectangle fx:id="paddle" arcHeight="5.0" arcWidth="5.0" fill="PINK" height="10.0" layoutX="256.0" layoutY="344.0" stroke="BLACK" strokeType="INSIDE" width="88.0" />
+
+    </children>
+</AnchorPane>
